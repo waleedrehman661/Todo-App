@@ -5,30 +5,31 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: rgb(104, 253, 191);
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 25vw;
+    margin-top: 5vw;
 }
 .container{
-    width: 80vw;
+    width: 60vw;
     height: auto;
     background-color: rgb(241, 40, 80);
     padding: 5vw;
     border-radius: 0.5vw;
+    box-shadow: 0px 0px 1px 0px black;
 }
 h1{
     color: white;
     margin-bottom: 2vw;
 }
 .input input{
-    padding: 2vw;
-    width: 75%;
+    padding: 1.4vw;
+    width: 79%;
     border: none;
 }
 #add{
-    padding: 2vw;
+    padding: 1.4vw;
     width: 20%;
     background-color: rgb(48, 236, 189);
     color: white;
@@ -41,13 +42,20 @@ h1{
     flex-direction: column;
     background: none;
     border: 2px solid white;
-    padding: 3.5vw;
+    padding: 2vw;
 }
 .list li{
     background-color: rgb(58, 240, 194);
-    padding: 3vw;
+    padding: 0.5vw 2vw;
     margin-bottom: 1vw;
     display: flex;
     justify-content: space-between;
     list-style: none;
+    align-items: center;
+}
+#clearbtn{
+    padding: 1vw 2vw;
+    background-color: rgb(58, 240, 194);
+    border: 0.3px solid;
+    margin-top: 10px;
 }
